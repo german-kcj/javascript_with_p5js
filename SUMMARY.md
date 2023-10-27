@@ -1,0 +1,18 @@
+# Table of contents
+
+* [Introduction](README.md)
+  * [Code Editor](introduction/code-editor.md)
+  * [Reference Library](introduction/reference-library.md)
+  * [Included Code](introduction/included-code/README.md)
+    * [CreateCanvas and Background](introduction/included-code/createcanvas-and-background.md)
+* [Variables](variables/README.md)
+  * [Student's Projects](variables/students-projects.md)
+* [Conditionals](conditionals.md)
+* [Project - Race Game](project-race-game.md)
+* [Functions](functions.md)
+* [Loops](loops.md)
+* [Arrays](arrays.md)
+* [Objects](objects.md)
+* [Images](images.md)
+* [Maps and Data](maps-and-data.md)
+* [APIs - Fetch](apis-fetch.md)
