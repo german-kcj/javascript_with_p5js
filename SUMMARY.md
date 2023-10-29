@@ -7,6 +7,7 @@
     * [CreateCanvas and Background](introduction/included-code/createcanvas-and-background.md)
 * [Variables](variables/README.md)
   * [Student's Projects](variables/students-projects.md)
+  * [Group Work During Class](variables/group-work-during-class.md)
 * [Conditionals](conditionals.md)
 * [Project - Race Game](project-race-game.md)
 * [Functions](functions.md)
