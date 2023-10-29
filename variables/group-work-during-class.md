@@ -1,5 +1,5 @@
 ---
-description: Activities created in class and submitted by the group
+description: Activities created in class and submitted by the group CAT
 ---
 
 # Group Work During Class
