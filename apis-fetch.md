@@ -16,7 +16,55 @@ This function is used to make network requests to retrieve data from a URL, typi
 
 Explore the code below and identify the previously learned concepts.  What is different from the previous examples?  Notice the new elements:
 
-#### Fetch
+### Fetch a Dog 🐶
+
+We start our fetching experience by getting random dogs from the following site [https://dog.ceo/dog-api/documentation/random](https://dog.ceo/dog-api/documentation/random).  This is a site that provides an API to request different dogs.  Check their documentations to access the data.
+
+{% hint style="info" %}
+**API**
+
+API (Application Programming Interface) refers to a set of rules and protocols that allow different software applications to communicate and interact with each other. APIs define the methods and data structures that developers can use to build applications and access the functionality of other software systems, such as web services, libraries, or frameworks
+{% endhint %}
+
+#### Code&#x20;
+
+```javascript
+let woof;
+
+function setup() {
+  createCanvas(400, 400);
+  textAlign(CENTER);
+  stroke(255);
+  fill(255);
+  textSize(30);
+}
+
+function draw() {
+  background(0);
+   
+  if(woof){
+    image(woof, 0, 0, width, height); 
+  } else {
+    text('Fetch a dog 🐶', width/2, height/2);
+  }
+}
+
+async function getDog() { 
+  let url = "https://dog.ceo/api/breeds/image/random";
+  let response = await fetch(url);
+  let data = await response.json();
+  woof = loadImage(data.message);
+}
+
+function mousePressed() {
+  getDog();
+}
+
+```
+
+#### Link in p5js. [Fetch a Dog](https://editor.p5js.org/Garcila/sketches/MHf3-6RLZ)
+
+### Fetch the Universe :milky\_way:
 
 The following code makes a call to the Nasa image API, requesting images from one of the items in the queries array.
 
