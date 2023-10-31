@@ -1,12 +1,12 @@
 ---
 description: for(let i = 0; i < 5; i++){}
-cover: .gitbook/assets/js_with_p5js.png
+cover: ../.gitbook/assets/js_with_p5js.png
 coverY: 0
 ---
 
 # Loops
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-08-03 at 11.16.21 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-08-03 at 11.16.21 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Loops
 

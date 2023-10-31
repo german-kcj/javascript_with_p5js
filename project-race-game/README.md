@@ -1,12 +1,12 @@
 ---
 description: if (key === 'g'){if(pinkX < 550 - diam/2){noLoop();}
-cover: .gitbook/assets/js_with_p5js.png
+cover: ../.gitbook/assets/js_with_p5js.png
 coverY: 0
 ---
 
 # Project - Race Game
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-08-03 at 11.15.33 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-08-03 at 11.15.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Variables, Conditionals and Events
 

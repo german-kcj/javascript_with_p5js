@@ -1,12 +1,12 @@
 ---
 description: function draw(){circle(200,200,200);}
-cover: .gitbook/assets/js_with_p5js.png
+cover: ../.gitbook/assets/js_with_p5js.png
 coverY: 0
 ---
 
 # Functions
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-08-03 at 4.21.02 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-08-03 at 4.21.02 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## Functions
 

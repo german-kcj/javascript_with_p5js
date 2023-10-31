@@ -1,12 +1,12 @@
 ---
 description: loadTable('/data/world_pop.csv', 'csv', 'header');
-cover: .gitbook/assets/js_with_p5js.png
+cover: ../.gitbook/assets/js_with_p5js.png
 coverY: 0
 ---
 
-# Maps and Data
+# Leaflet - Mappa - p5js
 
-<figure><img src=".gitbook/assets/Screen Shot 2023-08-03 at 11.19.51 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2023-08-03 at 11.19.51 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Map
 

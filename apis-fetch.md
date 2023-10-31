@@ -64,6 +64,62 @@ function mousePressed() {
 
 #### Link in p5js. [Fetch a Dog](https://editor.p5js.org/Garcila/sketches/MHf3-6RLZ)
 
+***
+
+### Fetch a Country :earth\_africa:
+
+The following code makes a call to the [Rest Countries](https://restcountries.com/#endpoints-capital-city) API, requesting information about all the countries in the world.&#x20;
+
+```javascript
+let url = "https://restcountries.com/v3.1/all?fields=name,flags";
+let chosenCountryFlag;
+let choices = [];
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(50);
+
+  if (chosenCountryFlag) {
+    image(chosenCountryFlag, 50, 50, 300, 200);
+    fill(255);
+    text(`1. ${choices[0].name.common}, 2. ${choices[1].name.common}, 3. ${choices[2].name.common}`, 50, 300);
+  }
+}
+
+async function getFlags() {
+  choices = [];
+  let response = await fetch(url);
+  let countries = await response.json();
+
+  let index = floor(random(0, countries.length));
+  choices.push(countries[index]);
+
+  let index2 = floor(random(0, countries.length));
+  choices.push(countries[index2]);
+
+  let index3 = floor(random(0, countries.length));
+  choices.push(countries[index3]);
+  
+  let neo = floor(random(3));
+  chosenCountryFlag = loadImage(choices[neo].flags.png);
+  chosenName = choices[neo].name.common;
+  
+  image(chosenCountryFlag, 50,50,300,200);
+}
+
+function mousePressed() {
+  getFlags();
+}
+
+```
+
+#### Link in p5js. [Fetch a Country](https://editor.p5js.org/Garcila/sketches/w5bpIktzI)
+
+***
+
 ### Fetch the Universe :milky\_way:
 
 The following code makes a call to the Nasa image API, requesting images from one of the items in the queries array.

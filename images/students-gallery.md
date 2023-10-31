@@ -1,0 +1,3 @@
+# Student's Gallery
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Carpal soil</td><td>Created by Danielito</td><td><a href="https://editor.p5js.org/danieltio/sketches/OA0Nwg23D">p5js LINK</a></td><td><a href="../.gitbook/assets/spaces_KxBjr6N2JcliQHF5qYum_uploads_36AsmwEtdCxuI4NGpl7z_Screen Shot 2023-10-23 at 8.webp">spaces_KxBjr6N2JcliQHF5qYum_uploads_36AsmwEtdCxuI4NGpl7z_Screen Shot 2023-10-23 at 8.webp</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>

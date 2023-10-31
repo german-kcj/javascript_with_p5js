@@ -1,0 +1,3 @@
+# Student's Gallery
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Second fiddle</td><td>Created by Daniel</td><td><a href="https://editor.p5js.org/danieltio/sketches/0IApa5liJ">p5js LINK</a></td><td><a href="../.gitbook/assets/spaces_KxBjr6N2JcliQHF5qYum_uploads_Wtxyl6WIpVTCfVaUA5AJ_Screen Shot 2023-10-11 at 8.webp">spaces_KxBjr6N2JcliQHF5qYum_uploads_Wtxyl6WIpVTCfVaUA5AJ_Screen Shot 2023-10-11 at 8.webp</a></td></tr><tr><td>Impartial dormouse</td><td>Created by Udaya</td><td></td><td><a href="../.gitbook/assets/Screen Shot 2023-10-11 at 8.49.38 PM.png">Screen Shot 2023-10-11 at 8.49.38 PM.png</a></td></tr></tbody></table>
