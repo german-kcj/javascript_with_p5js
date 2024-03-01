@@ -167,10 +167,6 @@ function keyPressed() {
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1f60e">😎</span> Race Game with Object Literals  </summary>
 
 ```javascript
-let whiteX = 35;
-let greenX = 35;
-let yellowX = 35;
-
 // Object Literal per player
 let whitePlayer = {
   x: 35,
