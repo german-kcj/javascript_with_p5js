@@ -162,6 +162,87 @@ function keyPressed() {
 
 </details>
 
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f60e">😎</span> Race Game with Object Literals  </summary>
+
+```javascript
+let whiteX = 35;
+let greenX = 35;
+let yellowX = 35;
+
+// Object Literal per player
+let whitePlayer = {
+  x: 35,
+  y: 100,
+  diam: 20
+}
+
+let greenPlayer = {
+  x: 35,
+  y: 50,
+  diam: 20
+}
+
+let yellowPlayer = {
+  x: 35,
+  y: 150,
+  diam: 20
+}
+
+function setup() {
+  createCanvas(400, 200);
+}
+
+function draw() {
+  background(3, 157, 252);
+  noStroke();
+  
+  // RACING TRACK
+  // start rectangle
+  fill(252, 123, 3);
+  rect(0, 0, 50, 200);
+
+  // end rectangle
+  fill(252, 3, 148);
+  rect(400 - 50, 0, 50, 200);
+
+  // PLAYERS
+  // WHITE
+  fill(255, 255, 255);
+  circle(whitePlayer.x, whitePlayer.y, whitePlayer.diam);
+
+  // move white to the right
+  whitePlayer.x = whitePlayer.x + random(5);
+
+  // when white gets to the end, message and stop
+  if (whitePlayer.x > 400 - 50) {
+    text("white wins!", 150, 100);
+    noLoop();
+  }
+  
+  // GREEN
+  fill(0,220,0);
+  circle(greenPlayer.x, greenPlayer.y, greenPlayer.diam);
+  greenPlayer.x = greenPlayer.x + random(5);
+  if(greenPlayer.x > 350){
+    text('green wins!', 150, 100);
+    noLoop();
+  }
+  
+  // YELLOW
+    fill(255,255,0);
+  circle(yellowPlayer.x, yellowPlayer.y, yellowPlayer.diam);
+  yellowPlayer.x = yellowPlayer.x + random(5);
+  if(yellowPlayer.x > 350){
+    text('yellow wins!', 150, 100);
+    noLoop();
+  }
+}
+```
+
+</details>
+
 ## Challenges
 
 Each day will include several challenges to support your learning.  Make use of any of the following tools to help you in the process: Google the question, use the reference material in p5js ask a friend!
