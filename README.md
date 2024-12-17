@@ -22,6 +22,26 @@ layout:
 
 <figure><img src=".gitbook/assets/js copy.jpeg" alt=""><figcaption><p>with p5.js</p></figcaption></figure>
 
+## Welcome
+
+This series of workshops will guide you through the exciting world of JavaScript programming and introduce you to the creative coding library, p5.js.
+
+### What to Expect:
+
+* Learn the fundamentals of JavaScript: You'll gain a solid understanding of core JavaScript concepts, including variables, data types, control flow, functions, and more.&#x20;
+* Discover the power of p5.js: We'll explore the p5.js library and learn how to use it to create interactive graphics, animations, and more.&#x20;
+* Develop creative projects: You'll have the opportunity to apply your knowledge and create your own unique p5.js sketches, from simple drawings to more complex interactive experiences.&#x20;
+* Build a strong foundation: This workshop series will provide you with a strong foundation in JavaScript and creative coding, opening doors to further exploration in web development and beyond.
+
+## Objectives
+
+* Develop a strong foundation in JavaScript programming.&#x20;
+* Learn to use p5.js to create interactive and engaging visual experiences.
+* Foster creativity and experimentation with code.
+* Gain confidence in problem-solving and debugging.
+* Build a portfolio of p5.js projects.
+* Prepare for further learning in creative coding and web development.
+
 ## JavaScript
 
 JavaScript is a versatile programming language widely used for web development. It makes websites interactive and dynamic, allowing developers to create engaging user experiences. JavaScript works on all major web browsers, and its flexibility and features make it essential for building modern websites. It helps add functionality and make web pages more exciting for users.
